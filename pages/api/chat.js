@@ -67,7 +67,7 @@ export default async function handler(req, res) {
         "X-Title": "Espetacularte Agente",
       },
       body: JSON.stringify({
-        model: "mistralai/mistral-7b-instruct:free",
+        model: "openrouter/auto",
         messages: [
           { role: "user", content: SYSTEM_PROMPT + "\n\nResponda como a Mágica a partir de agora." },
           { role: "assistant", content: "Olá! Sou a Mágica da Espetacularte! Como posso ajudar você hoje? 🎉" },
